@@ -1,9 +1,97 @@
-<mxfile host="app.diagrams.net" modified="2023-09-21T09:52:36.343Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.31" version="21.8.0" etag="qSZhf259vEpZwuLs00IO" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-21T11:37:39.322Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.31" etag="3uvwL0f3qy7KR6hXxHOy" version="21.8.0" type="github">
   <diagram name="Page-1" id="jNsWHZKS1UO1_X-qEk6e">
-    <mxGraphModel>
+    <mxGraphModel dx="1386" dy="785" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="_zThp66-lYbfNlYTU6dg-1" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Powershell.svg;" vertex="1" parent="1">
+          <mxGeometry x="44" y="328" width="125" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_zThp66-lYbfNlYTU6dg-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.01;entryY=0.189;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="_zThp66-lYbfNlYTU6dg-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="174" y="330" as="sourcePoint" />
+            <mxPoint x="346" y="323" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="311" y="327" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_zThp66-lYbfNlYTU6dg-6" value="Auth" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_zThp66-lYbfNlYTU6dg-2">
+          <mxGeometry x="-0.12" y="2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_zThp66-lYbfNlYTU6dg-31" value="1 - Get-SPOContext" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_zThp66-lYbfNlYTU6dg-2">
+          <mxGeometry x="-0.1107" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_zThp66-lYbfNlYTU6dg-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.008;entryY=0.26;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="360" as="sourcePoint" />
+            <mxPoint x="166" y="360" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_zThp66-lYbfNlYTU6dg-17" value="1.1 - context SPO OK" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_zThp66-lYbfNlYTU6dg-8">
+          <mxGeometry x="-0.1538" y="2" relative="1" as="geometry">
+            <mxPoint x="-27" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_zThp66-lYbfNlYTU6dg-14" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/document-icons-2/30/647702-excel-128.png" vertex="1" parent="1">
+          <mxGeometry x="78" y="560" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_zThp66-lYbfNlYTU6dg-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.686;entryY=1.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_zThp66-lYbfNlYTU6dg-14" target="_zThp66-lYbfNlYTU6dg-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="518" />
+              <mxPoint x="130" y="518" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_zThp66-lYbfNlYTU6dg-16" value="2 - Import-Excel" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_zThp66-lYbfNlYTU6dg-15">
+          <mxGeometry x="-0.0839" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_zThp66-lYbfNlYTU6dg-19" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0.556;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="344" y="382.03999999999996" as="sourcePoint" />
+            <mxPoint x="174" y="381" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_zThp66-lYbfNlYTU6dg-20" value="1.2 Error&amp;nbsp; message" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_zThp66-lYbfNlYTU6dg-19">
+          <mxGeometry x="-0.3571" y="-1" relative="1" as="geometry">
+            <mxPoint x="-35" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_zThp66-lYbfNlYTU6dg-24" value="Tenant 365" style="swimlane;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
+          <mxGeometry x="374" y="260" width="414" height="236" as="geometry">
+            <mxRectangle x="290" y="260" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_zThp66-lYbfNlYTU6dg-4" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Azure_Active_Directory.svg;" vertex="1" parent="_zThp66-lYbfNlYTU6dg-24">
+          <mxGeometry x="-30" y="51" width="98.44" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_zThp66-lYbfNlYTU6dg-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="_zThp66-lYbfNlYTU6dg-24" target="_zThp66-lYbfNlYTU6dg-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-170" y="140" as="sourcePoint" />
+            <mxPoint x="175.82250000000022" y="154.28999999999996" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-170" y="190" />
+              <mxPoint x="170" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_zThp66-lYbfNlYTU6dg-21" value="3 - Update Items from Excel rows" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_zThp66-lYbfNlYTU6dg-13">
+          <mxGeometry x="-0.3276" y="-4" relative="1" as="geometry">
+            <mxPoint x="22" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_zThp66-lYbfNlYTU6dg-32" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.boundlessdata.net/wp-content/uploads/2021/07/Microsoft365-1024x614.png;" vertex="1" parent="_zThp66-lYbfNlYTU6dg-24">
+          <mxGeometry x="110" y="20" width="207.29" height="124.29" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
